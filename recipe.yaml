@@ -95,11 +95,6 @@ tasks:
     ref: main
     dest: ./tmp/addons/esx_phone
 
-  - action: download_github
-    src: https://github.com/esx-framework/esx-next
-    ref: main
-    dest: ./tmp/addons/esx-next
-
   - action: waste_time # prevent github throttling
     seconds: 5
 
