@@ -315,11 +315,6 @@ tasks:
     dest: ./resources/[ox]/ox_core 
 
   - action: download_github
-    src: https://github.com/overextended/ox_mdt
-    ref: main
-    dest: ./resources/[ox]/ox_mdt
-
-  - action: download_github
     src: https://github.com/overextended/ox_appearance
     ref: main
     dest: ./resources/[ox]/ox_appearance
