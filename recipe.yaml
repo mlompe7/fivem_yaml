@@ -75,27 +75,27 @@ tasks:
     ref: main
     dest: ./tmp/addons/esx_basicneeds
     
-    - action: download_github
+  - action: download_github
     src: https://github.com/esx-framework/async
     ref: main
     dest: ./tmp/addons/async
     
-    - action: download_github
+  - action: download_github
     src: https://github.com/esx-framework/esx_bankerjob
     ref: main
     dest: ./tmp/addons/esx_bankerjob    
 
-    - action: download_github
+  - action: download_github
     src: https://github.com/esx-framework/esx_holdup
     ref: main
     dest: ./tmp/addons/esx_holdup 
     
-    - action: download_github
+  - action: download_github
     src: https://github.com/esx-framework/esx_phone
     ref: main
     dest: ./tmp/addons/esx_phone
 
-    - action: download_github
+  - action: download_github
     src: https://github.com/esx-framework/esx-next
     ref: main
     dest: ./tmp/addons/esx-next
@@ -103,7 +103,7 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 5
 
-    - action: download_github
+  - action: download_github
     src: https://github.com/esx-framework/esx-legacy-snippets
     ref: main
     dest: ./tmp/addons/esx-legacy-snippets
